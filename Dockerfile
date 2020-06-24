@@ -5,7 +5,7 @@
 #
 # The line below states we will base our new image on the Latest Official Ubuntu 
 # Remove py3 for python 2 image
-FROM tensorflow/tensorflow:latest-gpu-py3
+FROM tensorflow/tensorflow:2.1.1-gpu
 #ENV http_proxy http://172.16.117.121:3128
 #ENV https_proxy http://172.16.117.121:3128
 
@@ -19,7 +19,7 @@ LABEL description="Tensorflow + some other libraries"
 RUN apt-get update
 
 #
-RUN apt-get install -y wget vim htop fish datamash graphviz libgraphviz-dev swi-prolog
+RUN apt-get install -y wget vim htop fish datamash graphviz libgraphviz-dev
 
 RUN pip3 --no-cache-dir install ipython pandas
 
