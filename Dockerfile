@@ -19,7 +19,7 @@ LABEL description="Tensorflow + some other libraries"
 RUN apt-get update
 
 #
-RUN apt-get install -y wget vim htop fish datamash graphviz libgraphviz-dev
+RUN apt-get install -y wget vim htop fish datamash graphviz libgraphviz-dev swi-prolog
 
 RUN pip3 --no-cache-dir install ipython pandas
 
