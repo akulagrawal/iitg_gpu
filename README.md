@@ -1,4 +1,4 @@
-# Using IITG GPU Cluster
+# Using the GPU Cluster of CSE Dept, IITG
 
 ## Getting the access
 
