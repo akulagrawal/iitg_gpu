@@ -26,6 +26,8 @@ On windows, you can download and use [PuTTY](https://www.putty.org/)
 
 ## Steps to use a custom Docker Image
 
+This is required when the default image does not contain a program that you want to use.
+
 1. Make an account on [Dockerhub](https://hub.docker.com).
 
 2. Link your Dockerhub account to your Github account.
